@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const API_URL = 'http://clone-project-server1.vercel.app';
+const API_URL = 'http://clone-project-server1.vercel.app/emails/inbox';
 
 const API_GMAIL = async (urlObject, payload, type) =>{
     return await axios({
